@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toki Stream</title>
+  <!--Bootstrap Head-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <!--Hoja de Estilos-->
+  <link rel="stylesheet" href="./assets/css/styles.css" />
+
+  <!--FontAwsome-->
+  <script src="https://kit.fontawesome.com/dbc71064f4.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!--NAVBAR-->
+  <section id="nav-bar-section">
+    <nav class="navbar navbar-expand-lg bg-white fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./assets/img/logo-toki-stream.png" alt="logo-toki-stream" width="60" height="auto">
+        </a>
+        <div class="">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#hero-section">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#beneficios">Beneficios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#testimonios">Testimonios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#planes-y-precios">Planes y Precios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contactame">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </section>
+
+  <!--HERO-SECTION-->
+  <section id="hero-section">
+    <header>
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-lg-6 col-sm-12 col-md-12">
+            <img src="./assets/img/tv-hero-section.webp" class="img-fluid" alt="tv-hero-section">
+          </div>
+          <div class="col-lg-6 col-sm-12 col-md-12">
+            <h1>¡DISFRUTA TUS SERIES Y PELICULAS FAVORITAS AL MEJOR PRECIO!</h1>
+            <h5>Cuentas premium garantizadas, facil acceso y soporte 24/7</h5>
+            <a class="btn btn-light" href="#planes-y-precios">Consulta nuestros planes <i
+                class="fa-solid fa-glasses"></i></a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+  </section>
+
+  <!--BENEFICIOS-->
+  <section id="beneficios">
+    <div class="container py-5">
+      <h3>Beneficios</h3>
+      <hr>
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <ul>
+            <li>- Acceso a cuentas premium de las principales plataformas (Netflix, Spotify, Disney+, y muchas mas).
+            </li>
+            <li>- Ve tus series y peliculas sin interrupciones ni bloqueos.</li>
+            <li>- Precios competitivos.</li>
+            <li>- Garantia y soporte 24/7.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!--TESTIMONIOS-->
+  <section id="testimonios" class="d-flex align-items-center">
+    <div class="container text-center">
+      <div class="row justify-content-center">
+        <div class="col">
+          <div id="carouselTestimonios" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <i class="fa-solid fa-quote-left fa-2xl"></i>
+                <h3>¡El mejor servicio que he encontrado! Rápido y confiable.</h3>
+              </div>
+              <div class="carousel-item">
+                <i class="fa-solid fa-quote-left fa-2xl"></i>
+                <h3>¡El mejor servicio que he encontrado! Rápido y confiable.</h3>
+              </div>
+              <div class="carousel-item">
+                <i class="fa-solid fa-quote-left fa-2xl"></i>
+                <h3>¡El mejor servicio que he encontrado! Rápido y confiable.</h3>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselTestimonios"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselTestimonios"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--PLANES Y PRECIOS-->
+  <section id="planes-y-precios">
+    <div class="container py-5">
+      <h3>Planes y Precios</h3>
+      <hr>
+      <div id="carouselPlanes" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <!--CARDS-->
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              <!--Card1-->
+              <div class="col">
+                <div class="card">
+                  <img src="./assets/img/Netflix.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Netfilx</h5>
+                    <p class="card-text">Solicita tu plan ahora...</p>
+                    <a href="#" class="btn btn-secondary">Contacto <i class="fa-brands fa-whatsapp"></i></a>
+                  </div>
+                </div>
+              </div>
+
+              <!--Card1-->
+              <div class="col">
+                <div class="card">
+                  <img src="./assets/img/max.webp" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Max</h5>
+                    <p class="card-text">Solicita tu plan ahora...</p>
+                    <a href="#" class="btn btn-secondary">Contacto <i class="fa-brands fa-whatsapp"></i></a>
+                  </div>
+                </div>
+              </div>
+
+              <!--Card1-->
+              <div class="col">
+                <div class="card">
+                  <img src="./assets/img/prime.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Prime Video</h5>
+                    <p class="card-text">Solicita tu plan ahora...</p>
+                    <a href="#" class="btn btn-secondary">Contacto <i class="fa-brands fa-whatsapp"></i></a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="carousel-item">
+            <!--CARDS-->
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              <!--Card1-->
+              <div class="col">
+                <div class="card">
+                  <img src="./assets/img/rakuten.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Rakuten</h5>
+                    <p class="card-text">Solicita tu plan ahora...</p>
+                    <a href="#" class="btn btn-secondary">Contacto <i class="fa-brands fa-whatsapp"></i></a>
+                  </div>
+                </div>
+              </div>
+
+              <!--Card1-->
+              <div class="col">
+                <div class="card">
+                  <img src="./assets/img/crunchyroll.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Crunchyroll</h5>
+                    <p class="card-text">Solicita tu plan ahora...</p>
+                    <a href="#" class="btn btn-secondary">Contacto <i class="fa-brands fa-whatsapp"></i></a>
+                  </div>
+                </div>
+              </div>
+
+              <!--Card1-->
+              <div class="col">
+                <div class="card">
+                  <img src="./assets/img/vix.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Vix</h5>
+                    <p class="card-text">Solicita tu plan ahora...</p>
+                    <a href="#" class="btn btn-secondary">Contacto <i class="fa-brands fa-whatsapp"></i></a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselPlanes" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselPlanes" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!--CONTACTAME-->
+  <section id="contactame">
+    <div class="container py-5">
+      <div class="d-flex justify-content-center align-items-center" style="height: 100%;">
+        <div class="col-md-6 text-center">
+          <img src="./assets/img/WR-imagen.png" alt="Williams Rivas" class="bd-placeholder-img rounded-circle"
+            width="140" height="140">
+          <h2 class="fw-normal">Williams Rivas</h2>
+          <p>3 años en el rubro, llevando entretenimiento a muchos hogares.</p>
+          <p><a class="btn btn-success" href="#">Contactame <i class="fa-brands fa-whatsapp"></i></a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--FOOTER-->
+  <section id="footer">
+    <div class="container text-center py-3">
+      <img src="./assets/img/logo-toki-stream.png" class="img-fluid" alt="">
+    </div>
+
+  </section>
+
+  <!--Cierre Bootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

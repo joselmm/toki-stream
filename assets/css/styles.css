@@ -1,0 +1,83 @@
+/**/
+/*RESET*/
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+
+/*NAVBAR*/
+#nav-bar-section {
+  background-color: #0000;
+}
+/*HERO SECTION*/
+#hero-section {
+  background-color: #494563;
+  color: #ffffff;
+  margin-top: 80px;
+}
+
+#hero-section h5 {
+  font-weight: 100;
+}
+
+/*BENEFICIOS*/
+#beneficios {
+  font-weight: 400;
+  font-size: larger;
+}
+
+#beneficios hr {
+  color: #6c983e;
+  height: 4px;
+  background-color: #6c983e;
+  width: 7%;
+  justify-self: center;
+}
+
+#beneficios h3 {
+  justify-self: center;
+  font-weight: 200;
+}
+
+/*PLANES Y PRECIOS*/
+#planes-y-precios img {
+  height: 200px;
+}
+
+#planes-y-precios hr {
+  color: #6c983e;
+  height: 4px;
+  background-color: #6c983e;
+  width: 7%;
+  justify-self: center;
+}
+
+#planes-y-precios h3 {
+  text-align: center;
+  font-weight: 200;
+}
+
+/*TESTIMONIOS*/
+#testimonios {
+  background-color: #59793f;
+  height: 300px;
+  color: #f9f9f7;
+}
+
+#carouselTestimonios {
+  height: 100%;
+}
+
+/*CONTACTAME*/
+#contactame {
+  background-color: #cfc0bd;
+}
+
+/*FOOTER*/
+#footer img {
+  height: 70px;
+}
