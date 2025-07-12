@@ -88,3 +88,11 @@
 #footer img {
   height: 70px;
 }
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  
+  border-radius: 5px;
+  background-color: #000; /* Cambia el color a negro, o el que quieras */
+  
+}
