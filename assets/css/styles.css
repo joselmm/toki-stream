@@ -96,3 +96,7 @@
   background-color: #000; /* Cambia el color a negro, o el que quieras */
   
 }
+
+section {
+  scroll-margin-top: 80px;
+}
