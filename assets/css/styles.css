@@ -13,6 +13,13 @@
 #nav-bar-section {
   background-color: #0000;
 }
+
+.logo {
+    border-radius: 11px;
+    height: 80px;
+    width: auto;
+}
+
 /*HERO SECTION*/
 #hero-section {
   background-color: #494563;
